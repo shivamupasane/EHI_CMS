@@ -1,0 +1,8 @@
+<div class="card">
+    <p>{{contactNutShell.firstName}}&nbsp;{{contactNutShell.lastName}}</p>
+    <p>{{contactNutShell.email}}</p>
+    <p>{{contactNutShell.phoneNo}}</p>
+    <p>{{contactNutShell.status}}</p>
+    <button class= "displayBlock mb10"(click)="editContact(contactNutShell.email)">Edit</button>
+    <button class= "displayBlock" (click)="deleteContact(contactNutShell)">Delete</button>
+</div>
